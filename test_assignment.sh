@@ -1,10 +1,6 @@
 #!/bin/bash
-echo "======================================"
 echo "LAB-5 ASSIGNMENT VERIFICATION SCRIPT"
-echo "======================================"
-echo ""
 
-# Check all required files exist
 echo "1. Checking required files..."
 files=("process_creation.c" "file1.c" "file2.c" "simple_program.c" "explanations.txt" "Makefile" "README.md" "LICENSE" ".gitignore")
 all_exist=true
@@ -34,7 +30,6 @@ fi
 echo ""
 echo "3. Testing executables..."
 
-# Test process_creation
 if [ -x "process_creation" ]; then
     echo "  ✓ process_creation executable exists"
     ./process_creation > /dev/null 2>&1
@@ -43,7 +38,6 @@ else
     echo "  ✗ process_creation not executable"
 fi
 
-# Test output_program
 if [ -x "output_program" ]; then
     echo "  ✓ output_program executable exists"
     output=$(./output_program)
@@ -56,7 +50,6 @@ else
     echo "  ✗ output_program not executable"
 fi
 
-# Test simple_program
 if [ -x "simple_program" ]; then
     echo "  ✓ simple_program executable exists"
     output=$(./simple_program)
