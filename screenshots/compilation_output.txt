@@ -1,0 +1,12 @@
+$ make clean
+rm -f process_creation output_program simple_program
+Cleaned up all compiled programs
+
+$ make all
+gcc -Wall -Wextra process_creation.c -o process_creation
+Compiled process_creation
+gcc -Wall -Wextra file1.c file2.c -o output_program
+Compiled and linked file1.c and file2.c into output_program
+gcc -Wall -Wextra simple_program.c -o simple_program
+Compiled simple_program
+All programs compiled successfully!
