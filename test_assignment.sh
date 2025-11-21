@@ -75,13 +75,4 @@ else
     echo "  ⚠ ldd not available (expected on Linux)"
 fi
 
-echo "VERIFICATION COMPLETE!"
-echo "All assignment requirements met:"
-echo "  ✓ C code files (.c)"
-echo "  ✓ Explanations file (.txt)"
-echo "  ✓ Working Makefile"
-echo "  ✓ README.md"
-echo "  ✓ LICENSE file"
-echo "  ✓ .gitignore"
-echo "  ✓ All programs compile and run"
-echo ""
+
