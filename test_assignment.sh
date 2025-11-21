@@ -82,11 +82,7 @@ else
     echo "  ⚠ ldd not available (expected on Linux)"
 fi
 
-echo ""
-echo "======================================"
 echo "VERIFICATION COMPLETE!"
-echo "======================================"
-echo ""
 echo "All assignment requirements met:"
 echo "  ✓ C code files (.c)"
 echo "  ✓ Explanations file (.txt)"
